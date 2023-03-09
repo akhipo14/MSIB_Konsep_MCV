@@ -15,8 +15,8 @@ use App\Http\Controllers\ProdukController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('produk',[ProdukController::class,'index']);
+Route::get('/',[ProdukController::class,'index']);
